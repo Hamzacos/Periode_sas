@@ -7,7 +7,7 @@ int main()
     int const y = 32;
     printf("entrer la valeur du temperature en Fahrenheit\n");
     scanf("%f",&n);
-     c = (n * x) + y;
-     printf("la valeur du temperature en degre Celsius est:%f",c);
+     c = (n - y) / x;
+     printf("la valeur du temperature en degre Celsius est:%.2f",c);
     return(0);
 }
